@@ -11,7 +11,7 @@
 	<!-- wp:query {"queryId":0,"query":{"perPage":5,"pages":0,"offset":0,"postType":"product","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false},"namespace":"woocommerce/related-products","lock":{"remove":true,"move":true}} -->
 	<div class="wp-block-query">
 		<!-- wp:heading {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|30"}}},"fontSize":"large"} -->
-		<h2 class="wp-block-heading has-large-font-size" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--30)"><?php echo esc_html_x( 'Related products ', 'Heading for a single product page related products section', 'extendable' ); ?></h2>
+		<h2 class="wp-block-heading has-large-font-size" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--30)"><?php echo esc_html_x( 'Related products', 'Heading for a single product page related products section', 'extendable' ); ?></h2>
 		<!-- /wp:heading -->
 		<!-- wp:post-template {"className":"products-block-post-template","layout":{"type":"grid","columnCount":5},"__woocommerceNamespace":"woocommerce/product-query/product-template"} -->
 		<!-- wp:woocommerce/product-image {"imageSizing":"thumbnail","isDescendentOfQueryLoop":true,"style":{"spacing":{"margin":{"bottom":"1.5rem"}}}} /-->
